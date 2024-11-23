@@ -1,0 +1,12 @@
+# Ignorar todo por defecto
+# *
+
+# # Excluir del ignore las carpetas específicas
+# !Procesamiento/
+# !Regresion/
+# !Clasificacion/
+
+# Ignorar cualquier archivo dentro de las carpetas permitidas que no sea necesario
+Procesamiento/*.ipynb_checkpoints/
+Regresion/*.ipynb_checkpoints/
+Clasificacion/*.ipynb_checkpoints/
